@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f7f5;
+  color: #20352d;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.page {
+  width: min(100% - 2rem, 42rem);
+  margin: 5rem auto;
+  padding: 2rem;
+  border-left: 5px solid #368367;
+  background: #fff;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.greeting {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #d8e3dd;
+  font-size: 1.15rem;
+}
